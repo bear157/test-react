@@ -8,7 +8,7 @@ pipeline {
 
             steps{
                 echo 'building stage'
-                sh 'npm build'
+                bat 'npm run build'
             }
         }
     }
