@@ -8,7 +8,7 @@ pipeline {
 
             steps{
                 echo 'building stage'
-                bat 'npm start'
+                sh 'npm install'
             }
         }
     }
